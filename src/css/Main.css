@@ -1,0 +1,18 @@
+.horizontal-flex-out {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-center-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

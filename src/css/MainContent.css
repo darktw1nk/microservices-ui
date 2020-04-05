@@ -1,0 +1,86 @@
+.main-container {
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/game-background.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.5fr 1fr;
+
+}
+
+.current-project {
+    border: 1px solid black;
+    background: lightgray;
+    margin: 1vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.offices {
+    border: 1px solid black;
+    width: 90%;
+    padding: 2vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.office-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.office {
+    margin-left: 1vmin;
+    margin-right: 1vmin;
+    background: lightgray;
+    border: 2px solid black;
+    width: 16vw;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.work-place {
+    cursor: pointer;
+    margin-right: 1vmin;
+    position: relative;
+    width: 5vmin;
+    height: 5vmin;
+}
+
+.worker-image {
+    width: 5vmin;
+    height: 4vmin;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.chair-image {
+    width: 5vmin;
+    height: 5vmin;
+    position: relative;
+    top: 0;
+}
+
+.worker-modal {
+    background: lightgray;
+    border: 1px solid black;
+    padding: 1vmin;
+    width: 60vmin;
+    height: 40vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

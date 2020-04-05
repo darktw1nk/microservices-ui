@@ -1,0 +1,20 @@
+.worker-avatar {
+    width: 12vmin;
+    height: 12vmin;
+    margin-right: 2vmin;
+}
+
+.worker-screen-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.worker-screen-description {
+    flex-direction: column;
+}
+
+.description-point {
+    margin: 10px;
+}

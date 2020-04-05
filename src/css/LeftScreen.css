@@ -1,0 +1,86 @@
+.left-container {
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background: lightgray;
+}
+
+.logo {
+    object-fit: cover;
+    width: 20vh;
+    height: 10vw;
+    border: 1px solid black;
+}
+
+.money-goes-up{
+    -webkit-animation: money-goes-up-animation 3s 1;
+    -moz-animation: money-goes-up-animation 3s 1;
+    -o-animation: money-goes-up-animation 3s 1;
+    -ms-animation: money-goes-up-animation 3s 1;
+    animation: money-goes-up-animation 3s 1;
+}
+
+.money-goes-down {
+    -webkit-animation: money-goes-down-animation 3s 1;
+    -moz-animation: money-goes-down-animation 3s 1;
+    -o-animation: money-goes-down-animation 3s 1;
+    -ms-animation: money-goes-down-animation 3s 1;
+    animation: money-goes-down-animation 3s 1;
+}
+
+@-webkit-keyframes money-goes-down-animation {
+    0% { color: black; }
+    50% { color: red; }
+    100% { color: black; }
+}
+@-moz-keyframes money-goes-down-animation {
+    0% { color: black; }
+    50% { color: red; }
+    100% { color: black; }
+}
+@-ms-keyframes money-goes-down-animation {
+    0% { color: black; }
+    50% { color: red; }
+    100% { color: black; }
+}
+@-o-keyframes money-goes-down-animation {
+    0% { color: black; }
+    50% { color: red; }
+    100% { color: black; }
+}
+@keyframes money-goes-down-animation {
+    0% { color: black; }
+    50% { color: red; }
+    100% { color: black; }
+}
+
+
+
+@-webkit-keyframes money-goes-up-animation {
+    0% { color: black; }
+    50% { color: green; }
+    100% { color: black; }
+}
+@-moz-keyframes money-goes-up-animation {
+    0% { color: black; }
+    50% { color: green; }
+    100% { color: black; }
+}
+@-ms-keyframes money-goes-up-animation {
+    0% { color: black; }
+    50% { color: green; }
+    100% { color: black; }
+}
+@-o-keyframes money-goes-up-animation {
+    0% { color: black; }
+    50% { color: green; }
+    100% { color: black; }
+}
+@keyframes money-goes-up-animation {
+    0% { color: black; }
+    50% { color: green; }
+    100% { color: black; }
+}

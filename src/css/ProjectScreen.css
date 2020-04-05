@@ -1,0 +1,45 @@
+.project-screen-container {
+
+}
+
+.project-type-container {
+    width: 90%;
+    height: 20vmin;
+    border-radius: 2vmin;
+    border: 2px solid black;
+    overflow: auto;
+    margin-top: 2vmin;
+}
+
+.project-genre-container {
+    width: 90%;
+    height: 40vmin;
+    border-radius: 2vmin;
+    border: 2px solid black;
+    margin-top: 2vmin;
+    overflow: auto;
+}
+
+.project-controls {
+    margin-top: 2vmin;
+}
+
+.project-selectable-item {
+    width: 12vmin;
+    height: 12vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1vmin;
+    cursor: pointer;
+}
+
+.project-selectable-item-image {
+    width: 6vmin;
+    height: 6vmin;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}

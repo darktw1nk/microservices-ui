@@ -1,0 +1,12 @@
+.right-container {
+    height: 100%;
+    background: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.statistic-container {
+    width: 90%;
+    height: 90%;
+}

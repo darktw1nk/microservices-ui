@@ -1,0 +1,7 @@
+interface Window {
+    store: any;
+}
+
+
+
+
